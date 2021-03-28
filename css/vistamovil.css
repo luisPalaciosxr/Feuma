@@ -1,0 +1,27 @@
+.Ns p {
+  text-align: center;
+  font-size: 110px;
+  line-height: 500px;
+  color:#fff;
+}
+
+@media (max-width:768px){
+	.Ns p{
+  		display: flex;
+  		flex-direction: column;
+  		font-size: 130px;
+  		text-align: center;
+  		text-anchor: 23.5%;
+  		line-height: 202px;
+  		color:#fff;
+  	}
+  	.Nsi p{
+  		display: flex;
+  		flex-direction: column;
+  		font-size: 120px;
+  		text-align: center;
+  		text-anchor: 21.5%;
+  		line-height: 192px;
+  		color:#fff;
+  	}
+}
